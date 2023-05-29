@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+/*todo elemento que tenga la propiedad class  tittle adquirira el cambio de fuente siguiente*/
+
+.tittle{
+	font-family: Times New Roman, serif;
+}
+
+h1 {
+	font-family: Playfair Display, serif;
+}
+
+/*todo elemento que tenga la propiedad id  education adquirira el cambio de background siguiente*/
+#education {
+	background-color: #fffffe;
+        border: 1px solid black;
+        padding: 1.1rem;
+        margin-top: 10px;
+        margin-left: 25%;
+	margin-right: 25%;
+        margin-bottom: 2px;
+	align: center;
+}
+
+section h2.tittle{
+color: #272343;
+}
+
+/* Las propiedades CSS para eliminar el subrayado predeterminado y aplicar el 
+tamaño de la fuente de 1.2rem a todas las etiquetas <a> */
+a{
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+#foto {
+  border: 1px solid black;
+  padding: 1.1rem;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-bottom: 2px;
+}
+
+#centrar-mapa{
+	text-align: center
+}
+
+/*anidados
+#education .titulo{
+...}
+
+section > .titulo{
+...}
+
+section h2.titulo{
+...} 
+*/
+
+
