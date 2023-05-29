@@ -14,7 +14,7 @@ h1 {
 	font-family: Playfair Display, serif;
 }
 
-/*todo elemento que tenga la propiedad id  education adquirira el cambio de background siguiente*/
+/*todo elemento que tenga la propiedad id  education adquirira el cambio de background siguiente (PARA UN ELEMENTO EN PARTICULAR)*/
 #education {
 	background-color: #fffffe;
         border: 1px solid black;
