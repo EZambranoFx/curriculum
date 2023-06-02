@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 main{
-  display: grid; /* Modo de colocar los elementos internos a grid*/
+  display: flex; /*Modo de colocar los elementos internos a flex*/
   row-gap: 1rem; /*Separación entre filas*/
   column-gap: 1rem; /*Separación entre columnas*/
-  grid-template-areas: "fila1 fila1"
-                       "fila2 fila2"
-                       "fila3 fila3"
-                       "fila41 fila42"; /*nombres de las areas*/
+  flex-wrap: wrap; /* Los ítems ocupan el espacio de acuerdo a su tamaño*/
+  justify-content: center; /* Los elementos internos se distribuyen por igual*/
 }
 
 * {
@@ -37,7 +35,7 @@ li{
         margin-left: 25%;
 	margin-right: 25%;
         margin-bottom: 2px;
-	grid-area: fila2;
+ 	width: 100%;
 }
 
 section h2.tittle{
@@ -82,20 +80,16 @@ section h2.titulo{
         border: 1px solid black;
         padding: 1.1rem;
         margin-top: 10px;
-        margin-left: 45%;
-	margin-right: 1%;
         margin-bottom: 2px;
-	grid-area: fila41;
+	width: 25%;
 }
 #contacto {
 	background-color: #fffffe;
         border: 1px solid black;
         padding: 1.1rem;
         margin-top: 10px;
-        margin-left: 1%;
-	margin-right: 55.5%;
         margin-bottom: 2px;
-	grid-area: fila42;
+	width: 18.5%;
 }
 #infopersonal{
 	background-color: #fffffe;
@@ -105,7 +99,7 @@ section h2.titulo{
         margin-left: 25%;
 	margin-right: 25%;
         margin-bottom: 2px;
-	grid-area: fila1;
+  	width: 100%;
 }
 #explab{
 	background-color: #fffffe;
@@ -115,5 +109,5 @@ section h2.titulo{
         margin-left: 25%;
 	margin-right: 25%;
         margin-bottom: 2px;
-	grid-area: fila3;
+	width: 100%;
 }
