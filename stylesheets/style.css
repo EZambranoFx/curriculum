@@ -22,7 +22,12 @@ main{
 h1 {
 	font-family: Playfair Display, serif;
 }
-
+p{
+	font-size: 1.1rem;
+}
+li{
+	font-size: 1.1rem;
+}
 /*todo elemento que tenga la propiedad id  education adquirira el cambio de background siguiente (PARA UN ELEMENTO EN PARTICULAR)*/
 #education {
 	background-color: #fffffe;
@@ -32,12 +37,12 @@ h1 {
         margin-left: 25%;
 	margin-right: 25%;
         margin-bottom: 2px;
-	align: center;
 	grid-area: fila2;
 }
 
 section h2.tittle{
-color: #272343;
+	color: #272343;
+	text-align: center
 }
 
 /* Las propiedades CSS para eliminar el subrayado predeterminado y aplicar el 
@@ -80,7 +85,6 @@ section h2.titulo{
         margin-left: 45%;
 	margin-right: 1%;
         margin-bottom: 2px;
-	align: center;
 	grid-area: fila41;
 }
 #contacto {
@@ -89,9 +93,8 @@ section h2.titulo{
         padding: 1.1rem;
         margin-top: 10px;
         margin-left: 1%;
-	margin-right: 33%;
+	margin-right: 55.5%;
         margin-bottom: 2px;
-	align: center;
 	grid-area: fila42;
 }
 #infopersonal{
@@ -102,7 +105,6 @@ section h2.titulo{
         margin-left: 25%;
 	margin-right: 25%;
         margin-bottom: 2px;
-	align: center;
 	grid-area: fila1;
 }
 #explab{
@@ -113,7 +115,5 @@ section h2.titulo{
         margin-left: 25%;
 	margin-right: 25%;
         margin-bottom: 2px;
-	align: center;
 	grid-area: fila3;
 }
-
